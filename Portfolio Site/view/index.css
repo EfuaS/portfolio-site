@@ -1,0 +1,16 @@
+
+
+nav{
+    padding-top: 0.4cm;
+    font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+a {
+    color: black;
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgba(204, 204, 204, 0.411), transparent);  
+  }
