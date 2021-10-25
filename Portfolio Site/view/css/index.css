@@ -1,0 +1,64 @@
+
+.navbar{
+    height: 2.5cm;
+}
+
+.container{
+    align-items: center;
+}
+
+.column-1{
+    display: block;
+    flex-grow: 1;
+}
+
+.myface img.rounded{
+    border-radius: 50%;
+}
+
+.Portfolio{
+    overflow: hidden;
+}
+
+.Portfolio-item{
+    padding: 56px;
+}
+
+.image{
+    display: block;
+    position: relative;
+}
+
+.images{
+    width: 400px;
+    padding-left: 40px;
+    margin-left: 40px;
+    offset: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+.imageblog{
+    width: 220px;
+}
+
+.imageblog2{
+    width: 300px;
+}
+
+.imageStorefront{
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 2cm;
+    height: auto;
+    width: 550px;
+}
+
+
+
+
+
+
+
