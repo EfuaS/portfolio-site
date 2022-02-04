@@ -1,0 +1,158 @@
+
+.navbar{
+    height: 2.5cm;
+}
+
+.container{
+    align-items: center;
+}
+
+.sticky	{
+	position: sticky;
+  	top:30px;
+}
+
+.column-1{
+    display: block;
+    flex-grow: 1;
+}
+
+.myface img.rounded{
+    border-radius: 50%;
+}
+
+.Portfolio{
+    overflow: hidden;
+}
+
+.Portfolio-item{
+    padding: 56px;
+}
+
+.image{
+    display: block;
+    position: relative;
+}
+
+
+
+.imageStorefront{
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 2cm;
+    height: auto;
+    width: 550px;
+}
+.Portfolio {
+    /* // Overflow hidden hides the bottom and left */
+    /* // border of columns (which is actually box-shadow). */
+    overflow: hidden;
+  }
+  
+  .PortfolioSection__box {
+    padding: 0;
+  }
+
+  .Portfolio__column {
+    display: flex;
+  
+    /* // Make card stretch to height of column so that
+    // all cards in a row are the same height. */
+    align-items: stretch;
+  
+    /* // Center card within column
+    // Only has an effect if width of child card
+    // is less than 100%. */
+    justify-content: center;
+  
+    /* // Adds bottom and left "border" to each column.
+    // Container has overflow: hidden so border is not
+    // visible on edges (since shadow goes outside container). */
+    box-shadow: 1px 1px 0 0 #efefef;
+  }
+  
+  .Portfolio__item {
+    padding: 56px;
+  }
+  
+  .Portfolio__image {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 200px;
+  }
+
+
+.box{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+}
+.imagencare{
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 2cm;
+    height: auto;
+    width: 450px;
+}
+
+.mylogo{
+    height: auto;
+    width: 110px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    
+}
+
+.mylogo_down{
+    height: auto;
+    width: 110px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding-bottom: 70px;
+}
+
+#tabs-with-content .tabs:not(:last-child) {
+    margin-bottom: 0;
+  }
+  
+  #tabs-with-content .tab-content {
+    padding: 1rem;
+    display: none;
+  }
+  
+  #tabs-with-content .tab-content.is-active {
+    display: block;
+  }
+
+  .Features__feature {
+    padding: 1rem 0;
+}
+
+.icon {
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.NavbarComponent__logoItem .logoText {
+  color: #fff;
+  padding: 8px;
+  background: #4a4a4a;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.NavbarComponent__logoItem .logoTextIO {
+  color: #8fd400;
+}
+
+
